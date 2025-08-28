@@ -105,11 +105,11 @@ li a:hover{
     justify-content: center;
     gap: 25px;
     text-align: center;
-    min-width: 395px;
+    min-width: 315px;
 } 
 
 .container1 img{
-    max-width: 350px;
+    max-width: 310px;
     height: 230px;
     margin-top: 0;
 }
@@ -128,7 +128,7 @@ li a:hover{
 
 .container3{
     grid-column: 1/5;
-    min-width: 395px;
+    min-width: 315px;
     display: flex;
     background-color: rgb(28,188,156);
     flex-direction: column;
@@ -141,13 +141,11 @@ li a:hover{
 
 
 .container3 .forimage{
-    max-width: 350px;
-    height: 140px;
-    margin-left: 20px;
+    margin: 0 auto;
 }
 
 .forimage img{
-    width: 325px;
+    width: 290px;
 }
 
 
@@ -193,7 +191,7 @@ li a:hover{
 }
 
 .container3 button{
-    margin-top: 30px;
+    margin-top: 50px;
     padding: 20px 35px 20px 35px;
     font-size: 15px;
     background-color: transparent;
@@ -220,6 +218,7 @@ li a:hover{
 
 
 .for2ndcontainer{
+    min-width:315;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -227,7 +226,7 @@ li a:hover{
 }
 
 .for2ndcontainer img{
-    width: 350px;
+    width: 310px;
 }
 
 .container2{
@@ -297,7 +296,7 @@ li a:hover{
 
 
 
-@media (min-width:100px) and (max-width:579px) {
+@media (min-width:10px) and (max-width:579px) {
 
     .container2{
     grid-column: 1/5;
@@ -373,12 +372,12 @@ li a:hover{
 }
 
 .for4thcontainer img{
-   max-width: 350px;
+   max-width: 310px;
    height: 100px;
 }
 
 .container4{
-    min-width: 395px;
+    min-width: 315px;
     grid-column: 1/5;
    display: flex;
    justify-content: center;
@@ -440,7 +439,7 @@ form{
 
 footer{
     background-color: rgb(43,62,83);
-    min-width: 395px;
+    min-width: 315px;
     color: white;
     display: grid;
     text-align: center;
